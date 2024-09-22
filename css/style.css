@@ -3,27 +3,68 @@ body {
     margin: 0px;
 }
 .top {
-    background-color: #8cd9f6;
+    background-color: #f27d7d;
     text-align: center;
-    margin-left: 105px;
-    margin-right: 105px;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
 }
 section img {
     width: 1300px;
     height: auto;
+    margin-top: -55px;
     margin-bottom: -85px;
 }
 nav {
-    background-color: #ffe6b1;
+    background-color: #0c4365;
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 nav a {
+    font-family: 'Josefin Sans';
+    color: #f27d7d;
+    font-weight:600;
+    font-size: 25px;
+    padding: 100px;
+    text-transform: uppercase;
     text-decoration: none;
 }
+section h1 {
+    text-transform: uppercase;
+    font-family: 'Playpen Sans';
+    font-size: 70px;
+    color: #0c4365;
+}
+.separator{
+    margin-top: 0px;
+    padding: 3px;
+    background-color: #0c4365;
+    text-align: center;
 
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+}
+.separator h2{
+    font-family: 'Josefin Sans';
+    font-size: 50px;
+    color: #f27d7d;
+    text-transform: uppercase;
+    line-height: 50px;
+    padding: 20px;
+}
+.cat {
+    width: 350px;
+    height: auto;
+    padding-bottom: 78px;
+    
+}
 /*
 #ffe6b1 - yellow color
+#ffd48a - lighter yellow (i use)
+#4F805A - pretty green
+#dd3b5e - pink
+#8cd9f6 - my usual blue
+#0c4365 - dark blue 
+#f27d7d - salmon
+
+
+
 */
