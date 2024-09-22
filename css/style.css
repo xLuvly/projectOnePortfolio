@@ -1,0 +1,29 @@
+body {
+    background-color: #ffffff;
+    margin: 0px;
+}
+.top {
+    background-color: #8cd9f6;
+    text-align: center;
+    margin-left: 105px;
+    margin-right: 105px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+section img {
+    width: 1300px;
+    height: auto;
+    margin-bottom: -85px;
+}
+nav {
+    background-color: #ffe6b1;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+nav a {
+    text-decoration: none;
+}
+
+/*
+#ffe6b1 - yellow color
+*/
