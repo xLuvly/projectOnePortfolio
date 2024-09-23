@@ -61,16 +61,24 @@ section h1 {
     margin: 0px 100px 0px 100px;
     padding: 100px;
 }
-.block {
+.blockL {
     padding-bottom: 530px;
     background-color: #ffd48a;
     color: #ffd48a;
+    float: left;
+    display: inline;
+}
+.blockR {
+    padding-bottom: 530px;
+    background-color: #ffd48a;
+    color: #ffd48a;
+    float: right;
     display: inline;
 }
 .box {
     border: 20px solid #ffd48a;
     padding: 60px;
-    margin: 0px 200px 70px 200px;
+    margin: 50px 200px 80px 200px;
     text-align: justify;
     color: #0c4365;
     font-family: 'Josefin Sans';
