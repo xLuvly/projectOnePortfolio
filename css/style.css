@@ -6,7 +6,7 @@ body {
     background-color: #f27d7d;
     text-align: center;
 }
-section img {
+section .portrait {
     width: 1300px;
     height: auto;
     margin-top: -55px;
@@ -51,11 +51,27 @@ section h1 {
     padding: 20px;
 }
 .cat {
-    width: 350px;
+    width: 200px;
     height: auto;
-    padding-bottom: 78px;
-    
+    margin-bottom: -95px;
+    padding-bottom: 88px;
 }
+.intro {
+    border: 20px solid #ffd48a;
+    padding: 60px;
+    margin: 100px 200px 10px 200px;
+    text-align: justify;
+    color: #0c4365;
+    font-family: 'Josefin Sans';
+}
+.intro h3{
+    font-size: 30px;
+}
+.intro p {
+    font-weight: 1000;
+    font-size: 18px;
+}
+
 /*
 #ffe6b1 - yellow color
 #ffd48a - lighter yellow (i use)
