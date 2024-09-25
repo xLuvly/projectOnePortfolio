@@ -27,6 +27,10 @@ nav a {
     text-transform: uppercase;
     text-decoration: none;
 }
+nav a:hover {
+    font-size: 30px;
+    color: #ffd48a;
+}
 section {
     font-family: 'Playpen sans';
     color: #0c4365;
@@ -142,6 +146,17 @@ section h2 {
 .box p {
     font-weight: 1000;
     font-size: 20px;
+}
+
+footer {
+    padding: 3%;
+    text-align: center;
+}
+footer a {
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    color: #ffd48a;
+    text-decoration: none;
 }
 
 /*
