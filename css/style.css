@@ -44,12 +44,40 @@ section a {
     width: auto;
     border: 10px solid #ffd48a;
 }
+.bottom em {
+    text-transform: capitalize;
+    font-size: 15px;
+}
+.bottom li {
+    display: inline-block;
+}
+.bottom ol, ul {
+    list-style: inside;
+}
+.bottom dl{
+    display: flex;
+}
+.bottom dd{
+    font-family: 'Playpen Sans';
+    font-size: 15px;
+}
+.bottom dl img {
+    width: 100px;
+    height: auto;
+}
 section h1 {
     font-family: 'Playpen Sans';
     color: #0c4365;
     font-size: 70px;
     text-transform: uppercase;
     
+}
+section h2 {
+    font-family: 'PlayPen Sans';
+    color: #f27d7d;
+    font-size: 35px;
+    text-transform: capitalize;
+
 }
 .separator{
     background-color: #0c4365;
