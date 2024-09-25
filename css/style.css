@@ -9,7 +9,7 @@ body {
 section .portrait {
     width: 1300px;
     height: auto;
-    margin: -55px 0px -85px 0px;
+    margin: -55px 0px -90px 0px;
 }
 header{
     border-bottom: 5px solid white;
@@ -49,10 +49,13 @@ section a {
     font-size: 15px;
 }
 .bottom li {
-    display: inline-block;
+    display: list-item;
 }
 .bottom ol, ul {
     list-style: inside;
+}
+.bottom ol {
+    list-style: decimal inside;
 }
 .bottom dl{
     display: flex;
@@ -119,7 +122,7 @@ section h2 {
     display: inline;
 }
 .blockR {
-    padding-bottom: 500px;
+    padding-bottom: 700px;
     background-color: #ffd48a;
     color: #ffd48a;
     float: right;
