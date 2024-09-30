@@ -113,7 +113,7 @@ section .otherTitle {
     border-radius: 5%;
 }
 .bottom .backToTop {
-    width: 20%;
+    width: 10%;
     position: fixed;
     right: 0;
     bottom:0;
@@ -135,10 +135,6 @@ section .otherTitle {
     font-family: 'Josefin Sans';
     font-size: 20px;
 }
-.bottom img {
-    width: 20%;
-    border-radius: 10%;
-}
 .box {
     flex: 1;
     border: 20px solid #ffd48a;
@@ -149,12 +145,12 @@ section .otherTitle {
     color: #0c4365;
     font-family: 'Josefin Sans';
 }
-.box h3{
-    font-size: 30px;
+.box, .longBox h3{
+    font-size: 27px;
     padding-bottom: 4%;
 }
-.box p{
-    font-weight: 1000;
+.box, .longBox p{
+    font-weight: 600;
     font-size: 20px;
     text-align: justify;
 }
@@ -180,7 +176,7 @@ footer a {
 
 /* -- List Edits -- */
 .bottom section img{
-    height: 350px;
+    height: 300px;
     width: auto;
     border: 10px solid #ffd48a;
 }
