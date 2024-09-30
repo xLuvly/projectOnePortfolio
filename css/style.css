@@ -11,6 +11,11 @@ section .portrait {
     height: auto;
     margin: -55px 0px -90px 0px;
 }
+section .miniPortrait {
+    width:550px;
+    height: auto;
+    margin: -55px 0px -43px 980px;
+}
 header{
     border-bottom: 5px solid white;
 }
@@ -22,13 +27,13 @@ nav a {
     font-family: 'Josefin Sans';
     color: #f27d7d;
     font-weight:600;
-    font-size: 25px;
+    font-size: 20px;
     padding: 100px;
     text-transform: uppercase;
     text-decoration: none;
 }
 nav a:hover {
-    font-size: 30px;
+    font-size: 25px;
     color: #ffd48a;
 }
 section {
@@ -43,6 +48,127 @@ section a {
     text-transform: uppercase;
     font-size: 35px;
 }
+section h1 {
+    font-family: 'Playpen Sans';
+    color: #0c4365;
+    font-size: 70px;
+    text-transform: uppercase;
+    
+}
+section .otherTitle {
+    margin: 150px 500px -10px 0px;
+    text-align: justify right;
+    border-bottom: 15px solid white;
+    border-bottom-style: dashed;
+    border-width: 10px;
+}
+section h2 {
+    font-family: 'PlayPen Sans';
+    color: #f27d7d;
+    font-size: 35px;
+    text-transform: capitalize;
+
+}
+.separator{
+    background-color: #0c4365;
+    text-align: center;
+
+    margin: 0px;
+    padding: 3px;
+
+    border-top: 10px solid white;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+}
+.separator h2{
+    font-family: 'Josefin Sans';
+    color: #f27d7d;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 50px;
+    padding: 20px;
+}
+.cat {
+    width: 200px;
+    height: auto;
+    margin-bottom: -98px;
+    padding-bottom: 88px;
+}
+.bottom {
+    background-color: white;
+    margin: 0px 50px 0px 50px;
+    padding: 100px;
+    border-radius: 5%;
+}
+.bottom .backToTop {
+    width: 20%;
+    position: fixed;
+    right: 0;
+    bottom:0;
+}
+
+
+/* -- Home Page Boxes -- */
+.boxContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+.longBox {
+    border: 20px solid #ffd48a;
+    padding: 20px 70px 20px 70px;
+    margin: 20px;
+    text-align: center;
+    color: #0c4365;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+}
+.bottom img {
+    width: 20%;
+    border-radius: 10%;
+}
+.box {
+    flex: 1;
+    border: 20px solid #ffd48a;
+    padding: 60px;
+    margin: 20px;
+    max-width: 50%;
+    text-align: left;
+    color: #0c4365;
+    font-family: 'Josefin Sans';
+}
+.box h3{
+    font-size: 30px;
+    padding-bottom: 4%;
+}
+.box p{
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: justify;
+}
+.box li {
+    display: list-item;
+    list-style:disc inside;
+    padding-bottom: 14px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* -- Footer Edits --*/
+footer {
+    padding: 3%;
+    text-align: center;
+}
+footer a {
+    font-family: 'Josefin Sans';
+    font-size: 25px;
+    color: #ffd48a;
+    text-decoration: none;
+}
+
+/* -- List Edits -- */
 .bottom section img{
     height: 350px;
     width: auto;
@@ -71,92 +197,6 @@ section a {
 .bottom dl img {
     width: 100px;
     height: auto;
-}
-section h1 {
-    font-family: 'Playpen Sans';
-    color: #0c4365;
-    font-size: 70px;
-    text-transform: uppercase;
-    
-}
-section h2 {
-    font-family: 'PlayPen Sans';
-    color: #f27d7d;
-    font-size: 35px;
-    text-transform: capitalize;
-
-}
-.separator{
-    background-color: #0c4365;
-    text-align: center;
-
-    margin: 0px;
-    padding: 3px;
-
-    border-top: 10px solid white;
-    border-top-left-radius: 10%;
-    border-top-right-radius: 10%;
-
-}
-.separator h2{
-    font-family: 'Josefin Sans';
-    color: #f27d7d;
-    font-size: 50px;
-    text-transform: uppercase;
-    line-height: 50px;
-    padding: 20px;
-}
-.cat {
-    width: 200px;
-    height: auto;
-    margin-bottom: -98px;
-    padding-bottom: 88px;
-}
-.bottom {
-    background-color: white;
-    margin: 0px 100px 0px 100px;
-    padding: 100px;
-    border-radius: 5%;
-}
-.blockL {
-    padding-bottom: 530px;
-    background-color: #ffd48a;
-    color: #ffd48a;
-    float: left;
-    display: inline;
-}
-.blockR {
-    padding-bottom: 700px;
-    background-color: #ffd48a;
-    color: #ffd48a;
-    float: right;
-    display: inline;
-}
-.box {
-    border: 20px solid #ffd48a;
-    padding: 60px;
-    margin: 50px 200px 80px 200px;
-    text-align: justify;
-    color: #0c4365;
-    font-family: 'Josefin Sans';
-}
-.box h3{
-    font-size: 30px;
-}
-.box p {
-    font-weight: 1000;
-    font-size: 20px;
-}
-
-footer {
-    padding: 3%;
-    text-align: center;
-}
-footer a {
-    font-family: 'Josefin Sans';
-    font-size: 25px;
-    color: #ffd48a;
-    text-decoration: none;
 }
 
 /*
