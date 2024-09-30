@@ -68,11 +68,12 @@ section h2 {
     text-transform: capitalize;
 }
 section .otherTitle {
-    margin: 150px 500px -10px 0px;
-    text-align: justify right;
-    border-bottom: 15px solid white;
+    margin: 150px 300 -10px 0px;
+    border-top: 5px solid white;
+    border-top-style: dashed;
+    border-bottom: 5px solid white;
     border-bottom-style: dashed;
-    border-width: 10px;
+    
 }
 
 /* -- Transition To Bottom -- */
