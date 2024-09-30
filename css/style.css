@@ -14,7 +14,7 @@ section .portrait {
     margin: -55px 0px -90px 0px;
 }
 section .miniPortrait {
-    width:550px;
+    width:500px;
     height: auto;
     margin: -55px 0px -43px 980px;
 }
