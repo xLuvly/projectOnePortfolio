@@ -106,13 +106,23 @@ section .otherTitle {
     background-color: white;
     margin: 0px 50px 0px 50px;
     padding: 100px;
-    border-radius: 5%;
+    border-radius: 50px;
 }
 .bottom .backToTop {
     width: 10%;
     position: fixed;
     right: 0;
     bottom:0;
+}
+#bottom .backToTop {
+    width: 10%;
+    position: fixed;
+    right: 0;
+    bottom:0;
+}
+#bottom {
+    margin: 0px 50px 0px 50px;
+    border-radius: 5%;
 }
 
 /* -- Home Page Boxes -- */
@@ -171,34 +181,46 @@ footer a {
 }
 
 /* -- List Edits -- */
-.bottom section img{
+#bottom section img{
     height: 300px;
     width: auto;
     border: 10px solid #ffd48a;
 }
-.bottom em {
+#bottom em {
     text-transform: capitalize;
     font-size: 15px;
 }
-.bottom li {
+#bottom li {
     display: list-item;
 }
-.bottom ol, ul {
+#bottom ol, ul {
     list-style: inside;
 }
-.bottom ol {
+#bottom ol {
     list-style: decimal inside;
 }
-.bottom dl{
+#bottom dl{
     display: flex;
 }
-.bottom dd{
+#bottom dd{
     font-family: 'Playpen Sans';
     font-size: 15px;
 }
-.bottom dl img {
+#bottom dl img {
     width: 100px;
     height: auto;
+}
+/* -- List Backgrounds -- */
+#bottom .number, .bullet{
+    margin: 50px 350px 50px 350px;
+    padding: 20px 0px 20px 0px;
+    background-color: white;
+    border-radius: 50px;
+}
+#bottom .gamble{
+    padding: 5px 20px 5px 20px;
+    background-color: white;
+    border-radius: 50px;
 }
 
 /*
