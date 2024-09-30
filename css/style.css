@@ -13,11 +13,6 @@ section .portrait {
     height: auto;
     margin: -55px 0px -90px 0px;
 }
-section .miniPortrait {
-    width:500px;
-    height: auto;
-    margin: -55px 0px -43px 980px;
-}
 header{
     border-bottom: 5px solid white;
 }
@@ -158,9 +153,9 @@ section .otherTitle {
 .box li {
     display: list-item;
     list-style:disc inside;
-    padding-bottom: 14px;
+    padding-bottom: 11px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 /* -- Footer Edits --*/
