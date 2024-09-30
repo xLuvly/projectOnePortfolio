@@ -2,6 +2,8 @@ body {
     background-color: #0c4365;
     margin: 0px;
 }
+
+/* -- Top Portion -- */
 .top {
     background-color: #f27d7d;
     text-align: center;
@@ -19,6 +21,8 @@ section .miniPortrait {
 header{
     border-bottom: 5px solid white;
 }
+
+/* -- Links -- */
 nav {
     background-color: #0c4365;
     padding: 30px 0px 30px 0px;
@@ -36,6 +40,8 @@ nav a:hover {
     font-size: 25px;
     color: #ffd48a;
 }
+
+/* -- Section Works -- */
 section {
     font-family: 'Playpen sans';
     color: #0c4365;
@@ -55,6 +61,12 @@ section h1 {
     text-transform: uppercase;
     
 }
+section h2 {
+    font-family: 'PlayPen Sans';
+    color: #f27d7d;
+    font-size: 35px;
+    text-transform: capitalize;
+}
 section .otherTitle {
     margin: 150px 500px -10px 0px;
     text-align: justify right;
@@ -62,13 +74,8 @@ section .otherTitle {
     border-bottom-style: dashed;
     border-width: 10px;
 }
-section h2 {
-    font-family: 'PlayPen Sans';
-    color: #f27d7d;
-    font-size: 35px;
-    text-transform: capitalize;
 
-}
+/* -- Transition To Bottom -- */
 .separator{
     background-color: #0c4365;
     text-align: center;
@@ -89,12 +96,16 @@ section h2 {
     line-height: 50px;
     padding: 20px;
 }
+
+/* -- Cat GIF -- */
 .cat {
     width: 200px;
     height: auto;
     margin-bottom: -98px;
     padding-bottom: 88px;
 }
+
+/* -- Bottom Areas -- */
 .bottom {
     background-color: white;
     margin: 0px 50px 0px 50px;
@@ -107,7 +118,6 @@ section h2 {
     right: 0;
     bottom:0;
 }
-
 
 /* -- Home Page Boxes -- */
 .boxContainer {
